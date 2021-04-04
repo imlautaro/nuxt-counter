@@ -1,0 +1,31 @@
+{
+    "name": "nuxt-counter",
+    "author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+    "description": "Counter example with NuxtJS",
+    "license": "MIT",
+    "bugs": "https://github.com/imlautaro/nuxt-counter/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imlautaro/nuxt-counter.git"
+    },
+    "keywords": [
+        "nuxt",
+        "nuxtjs",
+        "counter",
+        "pwa",
+        "vuetify"
+    ],
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt generate",
+        "start": "nuxt start"
+    },
+    "dependencies": {
+        "nuxt": "^2.15.4"
+    },
+    "devDependencies": {
+        "@nuxtjs/pwa": "^3.3.5",
+        "@nuxtjs/vuetify": "^1.11.3"
+    }
+}

@@ -1,0 +1,13 @@
+<template>
+	<v-btn
+		fab
+		color="primary"
+		fixed
+		bottom
+		right
+		class="m-4"
+		@click="$emit('click')"
+	>
+		<v-icon>mdi-plus</v-icon>
+	</v-btn>
+</template>
